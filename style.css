@@ -1,0 +1,68 @@
+/*
+Theme Name: Eshop Woocommerce Theme
+Author: Barun
+Description: A custom woocommerce theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eshop
+*/
+
+.bread-list .ti-arrow-right{
+    font-size: 10px;
+    padding: 0px 5px 0px 5px;
+}
+nav.woocommerce-pagination ul{
+    display: flex !important;
+}
+nav.woocommerce-pagination ul li{
+    background: #fff;
+    padding: 5px;
+    border: 1px solid rgb(156, 156, 156);
+    margin: 2px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.input-group input.type_number{
+    background: #fff !important;
+    border: 0px;
+    text-align: center;
+}
+.input-group{
+    border: 1px solid rgb(216, 212, 212);
+    padding: 5px 5px;
+}
+
+.cart_totals span.woocommerce-Price-currencySymbol{
+    float: left !important;
+}
+
+p#billing_country_field span.woocommerce-input-wrapper select#billing_country,
+p#billing_state_field span.woocommerce-input-wrapper select#billing_state {
+    display: inherit !important;
+}
+p#billing_country_field span.woocommerce-input-wrapper div.nice-select,
+p#billing_state_field span.woocommerce-input-wrapper div.nice-select {
+    display: none !important;
+}
+
+/* .search-bar-top div.search-bar select{
+    display: block !important;
+}
+
+.search-bar-top div.search-bar div.nice-select{
+    display: none !important;
+} */
+
+.woocommerce-notices-wrapper{
+    width: 100% !important;
+}
